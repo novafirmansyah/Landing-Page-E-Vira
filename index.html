@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <title>Landing Page E-Vira</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <div class="navbar">
+        <div class="container">
+          <div class="box-navbar">
+            <div class="logo">
+              <h1>E - Vira</h1>
+            </div>
+            <ul class="menu">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#pengaduan">Pengaduan</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#artikel">Artikel</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li class="active"><a href="#daftar">Daftar</a></li>
+            </ul>
+            <i class="fa-solid fa-bars menu-bar"></i>
+          </div>
+        </div>
+      </div>
+      </nav>
+
+      <div class="hero">
+        <div class="container">
+          <div class="box-hero">
+            <div class="box">
+              <h1>
+                Jaga Lingkungan  <br />
+                Dimulai dari Diri Sendiri 
+              </h1>
+              <p id="description">Adukan segala pelanggaran lingkungan di sekitar lingkungan kamu</p>
+              <button><a id="link" href="https://skilvul.com" style="text-decoration: none; color: #ffff;">Selengkapnya</a></button>
+            </div>
+            <div class="box">
+              <img src="assets/img/hero2.png" alt="Hero2">
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+     <!-- Pengaduan -->
+    <div class="pengaduan" id="pengaduan">
+      <div class="container">
+        <div class="box-pengaduan">
+          <div class="box">
+            <form>
+              <input type="text" id="name" name="name" required placeholder="Masukkan Nama";>
+              <input type="text" id="city" name="city" required placeholder="Masukkan Kota";>
+              <input type="email" id="email" name="email" required placeholder="Masukkan Email";>
+              <input type="number" id="zip-code" name="zip-code" required placeholder="Masukkan Zip Kode";>
+              <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+              <input type="checkbox" id="status" name="status">
+              <button type="submit" id="submit-form">Submit</button>
+              <div id="warning"></div>
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pengaduan -->
+
+    <!-- Services -->
+    <div class="services" id="services">
+      <div class="container">
+        <div class="box-services">
+          <div class="box">
+            <i class="fa-solid fa-coins"></i>
+            <h4>Gratis Pengaduan</h4>
+            <p>Segala pengaduan yang dilaporkan tidak dipungut biaya</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>Pelayanan 24 Jam</h4>
+            <p>Pengaduan dapat dilakukan dimana saja dan kapan saja</p>
+          </div>
+          <div class="box">
+            <i class="fa-solid fa-people-roof"></i>
+            <h4>Cepat & Tanggap</h4>
+            <p>Dinas terkait akan segera melakukan peninjauan ke lokasi</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Services -->
+
+    <!-- Artikel -->
+    <div class="artikel" id="artikel">
+      <div class="container">
+        <div class="box-artikel">
+          <div class="box">
+            <img src="assets/img/edukasi1.jpg" alt="" />
+            <h3>Tips Mengurangi Sampah Sehari-hari</h3>
+            <p>Kehidupan sehari - hari kamu pasti tidak luput dari penggunaan sampah . . .</p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="assets/img/edukasi2.jpg" alt="" />
+            <h3>Giat Melakukan Reboisasi</h3>
+            <p>Gerakan GPRM ( Gerakan Penghijauan dan Reboisasi ) dilaksanakan serentak . . .</p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="assets/img/edukasi3.jpg" alt="" />
+            <h3>Olah Sampah Plastik jadi Bata</h3>
+            <p>Badan Lingkungan Hidup Kota Yogyakarta mengembangkan pengolahan . . .</p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="assets/img/edukasi4.jpg" alt="" />
+            <h3>Mari Pilah Sampah Sebelum Dibuang</h3>
+            <p>apa itu pilah sampah? Pilah sampah adalah memisahkan . . .</p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="assets/img/edukasi5.jpg" alt="" />
+            <h3>Sulap Limbah Plastik jadi BBM</h3>
+            <p>mekanisme konversi sampah plastik menjadi BBM adalah dengan . . .</p>
+            <button>Detail</button>
+          </div>
+          <div class="box">
+            <img src="assets/img/edukasi6.jpg" alt="" />
+            <h3>Limbah Plastik Menjadi Paving Block</h3>
+            <p>Melalui platform industri yang diberi nama Rebricks, dua perempuan asal. . .</p>
+            <button>Detail</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Artikel -->
+
+    <!-- Contact -->
+    <div class="contact" id="contact">
+      <div class="container">
+        <div class="box-contact">
+          <h1>
+            Kritik & Saran dapat kamu sampaikan melalui <br />
+            
+          </h1>
+          <h3>Klik Link di Bawah Ini!</h3>
+          <button><i class="fa-brands fa-whatsapp"></i> Whatsapp</button>
+          <button><i class="fa-regular fa-envelope"></i> Gmail</button>
+          <button><i class="fa-regular fa-clipboard"></i> Google Form</button>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer">
+      <div class="container">
+        <div class="box-footer">
+          <div class="box">
+            <h2>About</h2>
+            <p>E-Vira adalah sebuah platfrom pengaduan tindak pelanggaran lingkungan yang terjadi disekitar kamu,
+               platform ini memudahkan dinas lingkungan hidup dalam menangani permasalahan yang terjadi di wilayah kamu
+            </p>
+          </div>
+          <div class="box">
+            <h3>Menu</h3>
+            <a href="#home">Home</a>
+            <a href="#pengaduan">Pengaduan</a>
+            <a href="#services">Services</a>
+            <a href="#artikel">Artikel</a>
+            <a href="#contact">contact</a>
+          </div>
+          <div class="box">
+            <p>&copy; Copyright by <span>Environment New Era</span> All Rights Reserved 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </footer>
+    <!-- Footer -->
+
+    <script src="dist/js/script.js"></script>
+  </body>
+</html>
